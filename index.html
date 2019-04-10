@@ -1,7 +1,11 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"> </head>
 
-<form id="form" class="topBefore", action = "https://docs.google.com/forms/d/e/1FAIpQLScqGaM4BZ8SDImCn1ycwgwotFKXxWo-AwNK7_Nlnx5bhArmwg/formResponse", method = "post">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='thankyou.html';}"></iframe>
+
+<form id="form" class="topBefore" action = "https://docs.google.com/forms/d/e/1FAIpQLScqGaM4BZ8SDImCn1ycwgwotFKXxWo-AwNK7_Nlnx5bhArmwg/formResponse" method = "post" target="hidden_iframe" onsubmit="submitted=true;">
   <header>DCP Feedback Form</header>
 <p2> April 10, 2019 <br>
 	<br>Dear colleagues,<br><br>
@@ -29,12 +33,4 @@ Thanks for being in the DCP family.
 	<textarea name = "entry.1862658924" id="entry.1862658924" type="text" placeholder="Suggestions"></textarea>
   <input id="submit" type="submit" value="Submit!">
 	
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-onload="if(submitted) {window.location='thankyou.html';}"></iframe>
-
-<form action="https://docs.google.com/forms/d/e/safdalfjaISv65R6J11H0o_7FadflUm/formResponse" 
-method="post" target="hidden_iframe" onsubmit="submitted=true;">
-...
- 
 </form>
