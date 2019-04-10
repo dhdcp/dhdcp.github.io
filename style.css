@@ -30,16 +30,15 @@ h6 {
 p {
 	font-size: 16px;
 	line-height: 23px;
-	text-shadow: 1px 1px 2px black;
-}
+	}
+	
 p1 {
 	font-size: 16px;
 	line-height: 23px;
-	text-shadow: 1px 1px 2px black;
-	text-align: justify;
+	text-align:left;
 }
 .card-container {
-	background-color:#f87917;
+	background-color:#f6780a;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #fdf3e5;
