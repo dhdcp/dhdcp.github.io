@@ -88,6 +88,14 @@ header {
   letter-spacing: 7px;
 }
 
+header2 {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+  color: #7f0000;
+}
 p1 {
   font-family:sans-serif;
   position: relative;
@@ -110,6 +118,17 @@ p2 {
   line-height: 1.5;
 }
 
+p3{
+  font-family:sans-serif;
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 0.98em;
+  text-align: center;
+  letter-spacing: 1px;
+  width:500px;
+  color: #000000;
+  line-height: 1.5;
+}
 #form {
   position: relative;
   width: 500px;
