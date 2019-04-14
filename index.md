@@ -1,2 +1,2 @@
-# Department ot Community Progrms, Dhulikhel Hospital 
+# Department of Community Programs, Dhulikhel Hospital 
 ## more contents coming soon ... 
