@@ -1,0 +1,152 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-04-13T19:49:41.775+10:00"
+  },
+  "url": "gdm.dhulikhelhospital.org/valueset/FoodDrugAllergy",
+  "identifier": [
+    {
+      "system": "DHCP"
+    }
+  ],
+  "version": "v1.01",
+  "title": "Food and Drug Allergy",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "prabinrs@kusms.edu.np"
+        }
+      ],
+      "name": "Prabin Raj Shakya"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "137650007",
+            "display": "No known allergies"
+          },
+          {
+            "code": "3145006",
+            "display": "Penicillic acid"
+          },
+          {
+            "code": "255967008",
+            "display": "Gentamycin sulphate"
+          },
+          {
+            "code": "372670001",
+            "display": "Ceftriaxone"
+          },
+          {
+            "code": "372840008",
+            "display": "Ciprofloxacin"
+          },
+          {
+            "code": "387170002",
+            "display": "Ampicillin"
+          },
+          {
+            "code": "320817001",
+            "display": "Cetirizine hydrochloride"
+          },
+          {
+            "code": "372522002",
+            "display": "Fexofenadine"
+          },
+          {
+            "code": "108513001",
+            "display": "Ketorolac trometamol"
+          },
+          {
+            "code": "102263004",
+            "display": "Eggs (edible)"
+          },
+          {
+            "code": "70813002",
+            "display": "Milk"
+          },
+          {
+            "code": "260167008",
+            "display": "Sesame seed"
+          },
+          {
+            "code": "412071004",
+            "display": "Wheat"
+          },
+          {
+            "code": "256355007",
+            "display": "Soy"
+          },
+          {
+            "code": "762952008",
+            "display": "Peanut"
+          },
+          {
+            "code": "735971005",
+            "display": "Fish"
+          },
+          {
+            "code": "54787006",
+            "display": "Shellfish"
+          },
+          {
+            "code": "256350002",
+            "display": "Almond"
+          },
+          {
+            "code": "735211005",
+            "display": "Coconut"
+          },
+          {
+            "code": "227493005",
+            "display": "Cashew nut"
+          },
+          {
+            "code": "256352005",
+            "display": "Walnut"
+          },
+          {
+            "code": "227512001",
+            "display": "Pistachio nut"
+          },
+          {
+            "code": "226955001",
+            "display": "Chicken - meat"
+          },
+          {
+            "code": "102264005",
+            "display": "Cheese"
+          },
+          {
+            "code": "256313003",
+            "display": "Pineapple"
+          },
+          {
+            "code": "226934003",
+            "display": "Pork"
+          }
+        ],
+        "version": "http://snomed.info/sct/450829007/version/20201031"
+      }
+    ]
+  },
+  "description": "Value set of allergies from Food and Drugs(Medicine)",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Food and Drug Allergy</h2><tt>gdm.dhulikhelhospital.org</tt><p>Value set of allergies from Food and Drugs(Medicine) used for Gestational Diabeties  Research</p></div>"
+  },
+  "name": "FoodDrugAllergy",
+  "experimental": true,
+  "date": "2021-04-13T00:00:00.000Z",
+  "publisher": "Dhulikhel Hospital Department of Public Health",
+  "language": "EN",
+  "id": "0cba7ceb-d56c-4bd8-ad81-d7e7eda163d7"
+}
