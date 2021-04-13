@@ -7,6 +7,9 @@ The valuesets based on FHIR R4 created for department can be found here
 	
 2. Clinincal Medicine List (SNOMED CT Based) [download](https://raw.githubusercontent.com/dhdcp/dhdcp.github.io/master/valueset/MedicationList.json)<br>
 	ID for ontoserver 24bfdf19-1209-4442-85be-732262fa7760 
+	
+3. Clinical Conditions (ICD-10 Based) [download](https://raw.githubusercontent.com/dhdcp/dhdcp.github.io/master/valueset/Conditions.json.json)<br>
+	ID for Ontosever 009fa3a5-20f6-446e-bf07-40fdc16aa425
 
 ----------------------------------------------------------------------------------------------------------------
 **Other links**
